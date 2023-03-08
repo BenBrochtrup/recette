@@ -1,0 +1,26 @@
+{
+    "type": "module",
+    "name": "recette",
+    "version": "1.0.0",
+    "description": "An elegant recipe scrapper with Notion integration",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "author": "",
+    "license": "ISC",
+    "keywords": [],
+    "dependencies": {
+        "fetch": "^1.1.0",
+        "jquery": "^3.6.1",
+        "jsdom": "^20.0.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.35.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.6.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2"
+    }
+}
