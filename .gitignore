@@ -105,3 +105,6 @@ dist
 
 # Visual Studio Code file
 .vscode
+
+# Stupid Mac DS_Store
+.DS_Store
