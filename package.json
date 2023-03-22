@@ -5,12 +5,14 @@
     "description": "An elegant recipe scrapper with Notion integration",
     "main": "index.js",
     "scripts": {
-        "test": "test"
+        "test": "test",
+        "start": "node app.js"
     },
     "author": "",
     "license": "ISC",
     "keywords": [],
     "dependencies": {
+        "express": "^4.18.2",
         "fetch": "^1.1.0",
         "jquery": "^3.6.1",
         "jsdom": "^20.0.3"
