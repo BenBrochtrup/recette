@@ -20,7 +20,11 @@ class AllRecipes {
 
     // Get image URL from AllRecipe site
     getImage(doc) {
-        const imageUrl = doc.querySelector('#mntl-sc-block-image_1-0-1').getAttribute('data-src');
+        let imageUrl
+        const imageObj = doc.querySelector('#mntl-sc-block-image_1-0-1')
+        if (imageObj != null) {
+            imageUrl = imageObj.getAttribute('data-src');
+        }
         return imageUrl;
     }
 
